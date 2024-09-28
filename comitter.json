@@ -1,0 +1,8 @@
+{
+    "remote_origin_url": "https://github.com/proficiency/comitter.git",
+    "branch_name": "main",
+    "file_path": "comitter.txt",
+    "commit_message": "test",
+    "commit_schedule": 1,
+    "random_schedule": false
+}
