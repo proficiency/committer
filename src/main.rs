@@ -57,9 +57,9 @@ fn main() {
 
         let wait_time = if config.random_schedule {
             let mut rng = rand::thread_rng();
-            Duration::from_secs(rng.gen_range(5..61) * 60)
+            Duration::from_secs(rng.gen_range(5..61) * 120)
         } else {
-            Duration::from_secs((config.commit_schedule * 60).try_into().unwrap())
+            Duration::from_secs((config.commit_schedule * 120).try_into().unwrap())
         };
 
         let elapsed = start_time.elapsed();
